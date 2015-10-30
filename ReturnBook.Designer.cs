@@ -40,13 +40,13 @@
             this.nameLabel = new System.Windows.Forms.Label();
             this.nameField = new System.Windows.Forms.TextBox();
             this.borrowDetail = new System.Windows.Forms.DataGridView();
-            this.refshBtn = new System.Windows.Forms.Button();
             this.booknameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.borrower = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.borrowDateTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.now = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ISBNColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.writerColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.refshBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.borrowDetail)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,6 +93,7 @@
             this.returnBtn.TabIndex = 76;
             this.returnBtn.Text = "คืนหนังสือ";
             this.returnBtn.UseVisualStyleBackColor = false;
+            this.returnBtn.Click += new System.EventHandler(this.returnBtn_Click);
             // 
             // headerLabel
             // 
@@ -183,19 +184,6 @@
             this.borrowDetail.Size = new System.Drawing.Size(888, 424);
             this.borrowDetail.TabIndex = 78;
             // 
-            // refshBtn
-            // 
-            this.refshBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.refshBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.refshBtn.Location = new System.Drawing.Point(679, 151);
-            this.refshBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.refshBtn.Name = "refshBtn";
-            this.refshBtn.Size = new System.Drawing.Size(116, 30);
-            this.refshBtn.TabIndex = 75;
-            this.refshBtn.Text = "รีเฟรช";
-            this.refshBtn.UseVisualStyleBackColor = false;
-            this.refshBtn.Click += new System.EventHandler(this.refshBtn_Click);
-            // 
             // booknameColumn
             // 
             this.booknameColumn.HeaderText = "ชื่อหนังสือ";
@@ -237,6 +225,19 @@
             this.writerColumn.Name = "writerColumn";
             this.writerColumn.ReadOnly = true;
             this.writerColumn.Width = 150;
+            // 
+            // refshBtn
+            // 
+            this.refshBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.refshBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refshBtn.Location = new System.Drawing.Point(679, 151);
+            this.refshBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.refshBtn.Name = "refshBtn";
+            this.refshBtn.Size = new System.Drawing.Size(116, 30);
+            this.refshBtn.TabIndex = 75;
+            this.refshBtn.Text = "รีเฟรช";
+            this.refshBtn.UseVisualStyleBackColor = false;
+            this.refshBtn.Click += new System.EventHandler(this.refshBtn_Click);
             // 
             // ReturnBook
             // 

@@ -341,7 +341,8 @@ namespace WindowsFormsApplication1
             string sql;
             int rowID = 0;
 
-            sql = $"SELEC ROWID FROM bookData WHERE bookName = \"{bookName}\";";
+            conn.Open();
+            sql = $"SELECT ROWID FROM bookData WHERE bookName = \"{bookName}\";";
             cmd = new SQLiteCommand(sql, conn);
             SQLiteDataReader reader = cmd.ExecuteReader();
             if (reader.HasRows)
@@ -350,22 +351,15 @@ namespace WindowsFormsApplication1
                 {
                     rowID = Convert.ToInt32(reader["ROWID"]);
                     try {
-                        sql = $"UPDATE bookData SET left = left + 1 WHERE ROWID = \"{rowID}\"";
+                        sql = $"UPDATE bookData SET left = left + 1 WHERE ROWID = \"{rowID}\";";
                         cmd = new SQLiteCommand(sql, conn);
                         cmd.ExecuteNonQuery();
-                        try
-                        {
-                            sql = $"DELETE FROM borrowData WHERE borrower = \"{borrower}\" AND bookID = \"{rowID}\";";
-                            cmd = new SQLiteCommand(sql, conn);
-                            cmd.ExecuteNonQuery();
-                            MessageBox.Show("คืนสำเร็จ");
-                            return;
-                        }
-                        catch (SQLiteException e)
-                        {
-                            MessageBox.Show("คืนไม่สำเร็จ");
-                            return;
-                        }
+
+                        sql = $"DELETE FROM borrowData WHERE borrower = \"{borrower}\" AND bookID = \"{rowID}\";";
+                        cmd = new SQLiteCommand(sql, conn);
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("คืนสำเร็จ");
+                        return;
                     }
                     catch (SQLiteException e)
                     {

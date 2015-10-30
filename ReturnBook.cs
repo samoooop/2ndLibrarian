@@ -78,5 +78,11 @@ namespace WindowsFormsApplication1
                 }
             }
         }
+
+        private void returnBtn_Click(object sender, EventArgs e)
+        {
+            string bookName = nameField.Text, ISBN = ISBNField.Text, writer = writerField.Text, borrower = borrowerField.Text;
+            DBCommand.rtnBook(bookName, borrower);
+        }
     }
 }
