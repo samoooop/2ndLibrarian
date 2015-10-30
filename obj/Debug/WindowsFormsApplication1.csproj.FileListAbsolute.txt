@@ -1,0 +1,13 @@
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainWindow.resources
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.SQLite.dll
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddDelBook.resources
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.BorrowBook.resources
+c:\users\_felizk\documents\visual studio 2015\libCamp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReturnBook.resources
