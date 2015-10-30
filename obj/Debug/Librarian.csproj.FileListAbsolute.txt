@@ -24,3 +24,16 @@ C:\Users\_Felizk\Source\Repos\Librarian\obj\Debug\WindowsFormsApplication1.AddDe
 C:\Users\_Felizk\Source\Repos\Librarian\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\_Felizk\Source\Repos\Librarian\obj\Debug\WindowsFormsApplication1.ReturnBook.resources
 C:\Users\_Felizk\Source\Repos\Librarian\obj\Debug\Librarian.csproj.GenerateResource.Cache
+C:\Users\samoooop\Source\Repos\Librarian2\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\samoooop\Source\Repos\Librarian2\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\samoooop\Source\Repos\Librarian2\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\samoooop\Source\Repos\Librarian2\bin\Debug\System.Data.SQLite.dll
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\Librarian.csprojResolveAssemblyReference.cache
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.BorrowBook.resources
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.MainWindow.resources
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.AddDelBook.resources
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\WindowsFormsApplication1.ReturnBook.resources
+C:\Users\samoooop\Source\Repos\Librarian2\obj\Debug\Librarian.csproj.GenerateResource.Cache

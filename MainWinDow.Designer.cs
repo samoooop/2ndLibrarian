@@ -63,8 +63,9 @@
             // 
             // searchBtn
             // 
+            this.searchBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.searchBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.searchBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchBtn.Location = new System.Drawing.Point(810, 185);
             this.searchBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.searchBtn.Name = "searchBtn";
@@ -106,6 +107,8 @@
             // 
             // subNameField
             // 
+            this.subNameField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.subNameField.Location = new System.Drawing.Point(548, 76);
             this.subNameField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.subNameField.Name = "subNameField";
@@ -144,6 +147,8 @@
             // 
             // translatorField
             // 
+            this.translatorField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.translatorField.Location = new System.Drawing.Point(548, 113);
             this.translatorField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.translatorField.Name = "translatorField";
@@ -285,6 +290,8 @@
             // 
             // categoryBox
             // 
+            this.categoryBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.categoryBox.FormattingEnabled = true;
             this.categoryBox.Items.AddRange(new object[] {
             "   000 เบ็ตเตล็ดหรือความรู้ทั่วไป (Generalities)  ​",
@@ -308,6 +315,9 @@
             this.bookDetail.AllowUserToAddRows = false;
             this.bookDetail.AllowUserToDeleteRows = false;
             this.bookDetail.AllowUserToOrderColumns = true;
+            this.bookDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bookDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bookDetail.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.booknameColumn,
@@ -398,18 +408,19 @@
             // 
             this.headerLabel.AutoSize = true;
             this.headerLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.headerLabel.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.Location = new System.Drawing.Point(32, 40);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(95, 28);
+            this.headerLabel.Size = new System.Drawing.Size(125, 25);
             this.headerLabel.TabIndex = 16;
             this.headerLabel.Text = "ค้นหาหนังสือ";
             // 
             // returnBtn
             // 
+            this.returnBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.returnBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.returnBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.returnBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.returnBtn.Location = new System.Drawing.Point(678, 661);
             this.returnBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.returnBtn.Name = "returnBtn";
@@ -421,8 +432,9 @@
             // 
             // adddelBookBtn
             // 
+            this.adddelBookBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.adddelBookBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.adddelBookBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adddelBookBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adddelBookBtn.Location = new System.Drawing.Point(812, 661);
             this.adddelBookBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.adddelBookBtn.Name = "adddelBookBtn";
@@ -434,8 +446,9 @@
             // 
             // borrowBtn
             // 
+            this.borrowBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.borrowBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.borrowBtn.Font = new System.Drawing.Font("TF Lanna", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.borrowBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.borrowBtn.Location = new System.Drawing.Point(542, 661);
             this.borrowBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.borrowBtn.Name = "borrowBtn";
